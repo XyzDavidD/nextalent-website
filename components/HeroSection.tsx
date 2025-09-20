@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { color, motion } from 'framer-motion'
 import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight"
           >
-            <span className="text-white">nex</span><span className="text-accent">talent</span>
+            <span style={{color: '#01DEF1'}} className="text-accent">nex</span><span style={{color: '#01DEF1'}}>talent</span>
           </motion.h1>
           
           <motion.p

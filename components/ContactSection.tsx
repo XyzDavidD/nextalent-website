@@ -53,12 +53,6 @@ const ContactSection = () => {
 
   const contactInfo = [
     {
-      icon: <Mail className="w-5 h-5" />,
-      label: "Email",
-      value: "infotct@alice.it",
-      href: "mailto:infotct@alice.it"
-    },
-    {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
       value: "+39 XXX XXX XXXX",
@@ -85,8 +79,8 @@ const ContactSection = () => {
             className="text-center lg:text-left h-full"
           >
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8 lg:p-10 h-full">
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-                Get in Touch
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-8"style={{color: '#01DEF1'}}>
+                Contact
               </h2>
               
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
@@ -138,7 +132,7 @@ const ContactSection = () => {
                 ) : (
                   <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                     <div>
-                      <h3 className="text-2xl font-bold text-white mb-6">Send us a message</h3>
+                      <h3 className="text-2xl font-bold text-white mb-6">Send A Message</h3>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6">
@@ -223,7 +217,7 @@ const ContactSection = () => {
                       ) : (
                         <>
                           <Send className="w-5 h-5" />
-                          <span>Send Message</span>
+                          <span>Send A Message</span>
                         </>
                       )}
                     </button>

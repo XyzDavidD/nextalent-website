@@ -24,8 +24,8 @@ const Navigation = () => {
             <Image
               src="/logo.png"
               alt="nextalent Logo"
-              width={60}
-              height={60}
+              width={80}
+              height={80}
               className=""
               onError={(e) => {
                 // Fallback if logo doesn't exist yet
